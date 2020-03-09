@@ -1,0 +1,13 @@
+body {
+    background-color: #ccc;
+    text-align: center;
+}
+
+canvas {
+    touch-action: none;
+    background-color: #fff;
+}
+
+button {
+    font-size: 110%;
+}

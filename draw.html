@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="text/javascript" src="/js/script.js" async></script>
+</head>
+
+<body onload="init()">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">DrawMandala</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="draw.html">Draw</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <h1>Draw</h1>
+      <div>
+        <canvas width="500" height="500">
+          <p>Your browser doesn't support canvas.</p>
+        </canvas>
+        <div class="menu">
+          <input type="color" class="color" />
+          <button type="button" class="clear">Clear</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.container -->
+</body>
+
+</html>
